@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KaanBircan_HW1</string>
+    <string name="stringViewThirdActivity">Third Activity</string>
+    <string name="instoCalculate">Calculate hypothenus of two value</string>
+    <string name="valuesCalInt">Calculate hypotenuse of two values</string>
+    <array name="teams">
+        <item>Fenerbahçe</item>
+        <item>Galatasaray</item>
+        <item>Beşiktaş</item>
+    </array>
+</resources>

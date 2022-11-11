@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitleFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Homework 1"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EtName"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/EtSurname"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinnerMain"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:entries="@array/teams" />
+
+    <ImageView
+        android:id="@+id/imageViewMain"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="105dp"
+        app:srcCompat="@drawable/fb" />
+
+    <Button
+        android:id="@+id/SecondActivityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT" />
+
+</LinearLayout>

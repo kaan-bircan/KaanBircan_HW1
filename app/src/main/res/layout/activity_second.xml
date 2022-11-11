@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity" >
+
+    <TextView
+        android:id="@+id/tvSecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Activity"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imgViewSecond"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:baselineAlignBottom="false"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textViewInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valuesCalInt" />
+
+    <EditText
+        android:id="@+id/Value1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Value1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Value2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="Value2"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <Button
+        android:id="@+id/BackButtonSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+</LinearLayout>
